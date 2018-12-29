@@ -1,0 +1,13 @@
+# install adafruit_DHT library for this code
+
+import Adafruit_DHT
+import time
+sensor =  Adafruit_DHT.DHT11
+
+# GPIO pin
+pin = 4
+
+while True:
+	H,T = Adafruit_DHT.read_retry(sensor, pin)
+	print('Temperature:{0:0.1f}*C Humidity: {1:0.1f}%'.format(T,H))
+	time.sleep(1)
