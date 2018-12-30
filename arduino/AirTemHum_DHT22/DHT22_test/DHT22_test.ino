@@ -1,9 +1,11 @@
+#include <cactus_io_DHT22.h>
+
 // Example sketch for DHT22 humidity - temperature sensor
 // Written by cactus.io, with thanks to Adafruit for bits of their library. public domain
 
 #include "cactus_io_DHT22.h"
 
-#define DHT22_PIN 6     // what pin on the arduino is the DHT22 data line connected to
+#define DHT22_PIN 7     // what pin on the arduino is the DHT22 data line connected to
 
 // For details on how to hookup the DHT22 sensor to the Arduino then checkout this page
 // http://cactus.io/hookups/sensors/temperature-humidity/dht22/hookup-arduino-to-dht22-temp-humidity-sensor

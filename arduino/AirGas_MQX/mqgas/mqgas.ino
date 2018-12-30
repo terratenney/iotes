@@ -1,8 +1,8 @@
 
 // select the input pin for the MQ-X (135,8,2) sensors
-int mq135Pin = A6; 
-int mq9Pin = A5;
-int mq2Pin = A4;
+int mq135Pin = A0; 
+int mq9Pin = A1;
+int mq2Pin = A2;
 
 // variable to store the value coming from the sensor.
 int val = 0; 

@@ -1,4 +1,6 @@
 #include <DHT22.h>
+
+#include <DHT22.h>
 // Only used for sprintf
 #include <stdio.h>
 
