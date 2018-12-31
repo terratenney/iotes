@@ -1,5 +1,9 @@
 #include <PM2005Lib.h>
 
+#include <SoftwareSerial.h>
+
+#include <PM2005Lib.h>
+
 //--Arduino Nano-----------------------------------------
 // pin 8 to PM2005_TX
 // pin 9 to PM2005_RX
@@ -53,4 +57,3 @@ void loop() {
   // Wait some time (e.g. 3 seconds) until next readout
   delay(1000);
 }
-

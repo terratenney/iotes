@@ -1,3 +1,5 @@
+#include <Wire.h>
+
 /* SFE_BMP180 altitude example sketch
 
 This sketch shows how to use the Bosch BMP180 pressure sensor
@@ -164,6 +166,3 @@ double getPressure()
   }
   else Serial.println("error starting temperature measurement\n");
 }
-
-
-
